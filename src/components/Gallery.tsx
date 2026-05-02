@@ -3,33 +3,23 @@ import { X } from 'lucide-react';
 
 const images = [
   {
-    src: 'https://images.pexels.com/photos/3993456/pexels-photo-3993456.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-    label: 'Precision Cut',
+    src: 'https://static.wixstatic.com/media/be5891_350edb6dbc6d4de2a149ba2518cfbe9d~mv2.jpg/v1/fit/w_1200,h_900,q_90,enc_avif,quality_auto/be5891_350edb6dbc6d4de2a149ba2518cfbe9d~mv2.jpg',
+    label: 'Salon Interior',
     span: 'col-span-2',
   },
   {
-    src: 'https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-    label: 'Color Treatment',
+    src: 'https://static.wixstatic.com/media/be5891_8291e7033d7343d1bfb9d5802b66664d~mv2.jpg/v1/fit/w_960,h_721,q_90,enc_avif,quality_auto/be5891_8291e7033d7343d1bfb9d5802b66664d~mv2.jpg',
+    label: 'Expert Styling',
     span: '',
   },
   {
-    src: 'https://images.pexels.com/photos/3760611/pexels-photo-3760611.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-    label: 'Balayage',
+    src: 'https://static.wixstatic.com/media/be5891_a02554e5b6f742bcb0a3bb6ec0a169f1~mv2.jpg/v1/fit/w_960,h_721,q_90,enc_avif,quality_auto/be5891_a02554e5b6f742bcb0a3bb6ec0a169f1~mv2.jpg',
+    label: 'Premium Experience',
     span: '',
   },
   {
-    src: 'https://images.pexels.com/photos/3993474/pexels-photo-3993474.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
-    label: 'Skin Glow',
-    span: '',
-  },
-  {
-    src: 'https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
-    label: 'Styling',
-    span: '',
-  },
-  {
-    src: 'https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop',
-    label: 'Bridal Makeup',
+    src: 'https://static.wixstatic.com/media/be5891_c9b088a4c6d946428ef46042ab7c57ba~mv2.jpg/v1/fit/w_960,h_721,q_90,enc_avif,quality_auto/be5891_c9b088a4c6d946428ef46042ab7c57ba~mv2.jpg',
+    label: 'Our Craft',
     span: 'col-span-2',
   },
 ];
