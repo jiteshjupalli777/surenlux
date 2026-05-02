@@ -3,22 +3,28 @@ import { ChevronDown } from 'lucide-react';
 
 const slides = [
   {
-    image: 'https://images.pexels.com/photos/3993444/pexels-photo-3993444.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+    image: 'https://static.wixstatic.com/media/be5891_350edb6dbc6d4de2a149ba2518cfbe9d~mv2.jpg/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/be5891_350edb6dbc6d4de2a149ba2518cfbe9d~mv2.jpg',
     headline: 'Where Beauty',
     subheadline: 'Meets Artistry',
     tagline: 'Premium Unisex Salon Experience',
   },
   {
-    image: 'https://images.pexels.com/photos/3738344/pexels-photo-3738344.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+    image: 'https://static.wixstatic.com/media/be5891_8291e7033d7343d1bfb9d5802b66664d~mv2.jpg/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/be5891_8291e7033d7343d1bfb9d5802b66664d~mv2.jpg',
     headline: 'Crafted With',
     subheadline: 'Pure Elegance',
     tagline: 'Expert Cuts · Color · Skincare',
   },
   {
-    image: 'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop',
+    image: 'https://static.wixstatic.com/media/be5891_a02554e5b6f742bcb0a3bb6ec0a169f1~mv2.jpg/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/be5891_a02554e5b6f742bcb0a3bb6ec0a169f1~mv2.jpg',
     headline: 'Your Finest',
     subheadline: 'Transformation',
     tagline: 'Luxury Treatments for Every Soul',
+  },
+  {
+    image: 'https://static.wixstatic.com/media/be5891_c9b088a4c6d946428ef46042ab7c57ba~mv2.jpg/v1/fit/w_1920,h_1080,q_90,enc_avif,quality_auto/be5891_c9b088a4c6d946428ef46042ab7c57ba~mv2.jpg',
+    headline: 'Experience',
+    subheadline: 'True Luxury',
+    tagline: 'Madhapur's Most Prestigious Salon',
   },
 ];
 
