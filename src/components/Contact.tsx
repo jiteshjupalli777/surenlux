@@ -65,7 +65,7 @@ export default function Contact() {
                     Madhapur, Hyderabad, Telangana – 500081
                   </div>
                   <a
-                    href="https://maps.app.goo.gl/EWd9QEM9Q5WBvzdd8"
+                    href="https://maps.app.goo.gl/XnpWsvYzFP8yFHsT8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 mt-2 text-[#c9a96e] text-xs hover:text-[#e8d5a3] transition-colors"
@@ -122,23 +122,32 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right: Map */}
+          {/* Right: Map — correct Manea Madhapur location */}
           <div className="reveal-right">
             <div className="relative h-full min-h-[450px] overflow-hidden border border-[#c9a96e]/20">
               <iframe
                 title="Seren Luxe Location"
-                src="https://maps.google.com/maps?q=1-98/7/2/5A,+1st+Floor,+Above+Karachi+Bakery,+Madhapur,+Hyderabad,+Telangana+500081&output=embed&z=16"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3088572!2d78.3809!3d17.4489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc4c4c4c4d%3A0x0!2sManea%20The%20Salon%20Madhapur!5e0!3m2!1sen!2sin!4v1&q=Manea+The+Salon,+Above+Karachi+Bakery,+Madhapur,+Hyderabad"
                 width="100%"
                 height="100%"
-                className="absolute inset-0 grayscale"
+                className="absolute inset-0"
                 style={{ filter: 'grayscale(1) invert(0.9) contrast(0.8) sepia(0.3)' }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
               />
               {/* Overlay badge */}
-              <div className="absolute bottom-4 left-4 px-4 py-3 bg-[#080808]/90 backdrop-blur-sm border border-[#c9a96e]/30">
+              <div className="absolute bottom-4 left-4 px-4 py-3 bg-[#080808]/90 backdrop-blur-sm border border-[#c9a96e]/30 z-10">
                 <div className="text-[#c9a96e] text-xs tracking-[0.2em] uppercase font-medium">Seren Luxè</div>
                 <div className="text-white/60 text-xs mt-0.5">Madhapur, Hyderabad</div>
+                <a
+                  href="https://maps.app.goo.gl/XnpWsvYzFP8yFHsT8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 mt-1 text-[#c9a96e] text-xs hover:text-[#e8d5a3] transition-colors"
+                >
+                  Open in Maps <ExternalLink size={9} />
+                </a>
               </div>
             </div>
           </div>
